@@ -58,10 +58,11 @@ public:
 // //The storage occupied by the vertices and the arrays
 // //weights, edges, and edgeWeights is deallocated.
 private:
-	int mst_Size, source;
+	
 	list<int> *map;
-	int *edges;
 	double *edgeWeights;
 	double **weights;
+	int mst_Size, source;
+	int *edges;
 };
 #endif
